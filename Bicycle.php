@@ -10,7 +10,7 @@ require_once 'LightableInterface.php';
 
     public function switchOn():bool
     {
-        if ($this->getCurrentSpeed()>=10){
+        if ($this->getCurrentSpeed()>10){
             return true;
         }
         else {
